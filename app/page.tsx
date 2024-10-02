@@ -32,12 +32,12 @@ export default function Home() {
 			<div className="flex w-5/6 max-w-7xl mx-auto px-4 flex-g sm:justify-between flex-col sm:flex-row">
 				<div className="flex flex-1 flex-col justify-center py-8 sm:py-0">
 					<h5 className="tracking-wide py-1 px-0.5 z-10 text-center text-4xl sm:text-5xl sm:text-left text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display bg-clip-text break-words">
-						WELCOME TO BUFF
+						WELCOME TO BULL
 					</h5>
 
 					<div className="sm:my-20 animate-fade-in">
 						<h5 className="text-3xl sm:text-4xl sub-color leading-50px clip text-center sm:text-left">
-							Buff is a meme coin based on Solana inspired by a buff
+							Bull is a meme coin based on Solana inspired by a bull
 							that has suddenly come to a standstill while grazing.
 						</h5>
 					</div>
