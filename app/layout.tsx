@@ -6,10 +6,10 @@ import { Analytics } from './components/analytics'
 
 export const metadata: Metadata = {
 	title: {
-		default: '$BULL',
-		template: '%s | $BULL',
+		default: '$BUFFALO',
+		template: '%s | $BUFFALO',
 	},
-	description: '$BULL is a meme coin based on Solana.',
+	description: '$BUFFALO is a meme coin based on Solana.',
 	// openGraph: {
 	// 	title: '$BUFF',
 	// 	description: '$BUFF is a meme coin based on Solana.',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: '$BULL',
+		title: '$BUFFALO',
 		card: 'summary_large_image',
 	},
 	icons: {
