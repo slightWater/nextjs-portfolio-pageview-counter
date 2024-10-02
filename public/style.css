@@ -1,0 +1,52 @@
+@keyframes expandFromCenter {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+.element {
+	animation: expandFromCenter 2s ease-out;
+	width: 355px;
+	height: 640px;
+}
+@media screen and (max-width: 640px) {
+	.element {
+		animation: expandFromCenter 2s ease-out;
+		width: 18rem;
+		height: auto;
+		border-radius: 10px;
+		background-color:transparent !important;
+		padding-bottom: 2rem !important;
+	}
+	
+}
+.clip {
+	background-image: linear-gradient(120deg, #b047ff 16%, #9499ff, #9499ff);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.main-color {
+	color: rgba(255, 255, 245, 0.86);
+}
+.sub-color {
+	color: rgba(235, 235, 245, 0.6);
+}
+.cartoon {
+	background-image: url('/cartoon.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.5;
+}
+.font-shadow {
+	text-shadow: rgba(255, 255, 255, 0.97) -5px 5px 0px;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
